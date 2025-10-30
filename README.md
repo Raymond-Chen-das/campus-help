@@ -58,6 +58,8 @@ cd campus-help-streamlit
 #### 2. 安裝依賴
 
 ```bash
+python -m venv venv
+venv\Scripts\activate 
 pip install -r requirements.txt
 ```
 
@@ -66,14 +68,15 @@ pip install -r requirements.txt
 - sqlalchemy (資料庫)
 - pandas (資料處理)
 - plotly (視覺化)
-- google-generativeai (AI 功能)
+- google-generativeai (AI 功能，非常大!!!要等一段時間
 - python-dotenv (環境變數)
 
 #### 3. 設定環境變數 (可選)
 
 ```bash
-# 編輯 .env 檔案，填入 Gemini API Key
-notepad .env
+# 編輯 .env.example 檔案
+把副檔名改成.env
+並且填入 Gemini API Key
 ```
 
 **取得 Gemini API Key**:
