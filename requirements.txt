@@ -1,0 +1,23 @@
+# Campus Help - Streamlit 版本
+# Python 依賴套件清單
+
+# 核心框架
+streamlit==1.39.0
+
+# 資料庫
+sqlalchemy==2.0.36
+
+# 資料處理
+pandas==2.2.3
+
+# 視覺化
+plotly==5.24.1
+
+# AI 功能 (Google Gemini)
+google-generativeai==0.8.3
+
+# 環境變數
+python-dotenv==1.0.1
+
+# 日期時間處理 (Python 內建，但列出供參考)
+# datetime - 內建模組
